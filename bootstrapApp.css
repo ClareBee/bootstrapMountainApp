@@ -1,8 +1,12 @@
+body {
+  position: relative;
+}
 .jumbotron {
+  margin-top: 50px;
   background-image: url(/Users/clareblackburne/codeclan_work/month_4/week_14/wk14_day_4/bootstrapMarketingPage/danny-postma-302063.jpg);
   background-size: cover;
   color: white;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
   text-align: center;
 }
 
@@ -18,7 +22,7 @@
   padding: 2px;
 }
 
-#learnMore {
+#signUp {
   background-color: rgb(147, 249, 248);
   text-shadow: none;
   color: #182626;
@@ -31,7 +35,11 @@
   outline: 0;
 }
 
-#appSummary {
+.row{
+  margin-top: 80px;
+  margin-left: 25%;
+  margin-bottom: 50px;
+  color: rgba(140, 140, 140, 0.5);
   text-align: center;
 }
 
@@ -40,4 +48,18 @@
 }
 #emailEntry {
   width: 200px;
+}
+#deck {
+  padding: 10px;
+}
+
+#appIcon {
+  width: 200px;
+}
+
+#footer {
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 150px;
 }
