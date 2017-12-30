@@ -1,0 +1,43 @@
+.jumbotron {
+  background-image: url(/Users/clareblackburne/codeclan_work/month_4/week_14/wk14_day_4/bootstrapMarketingPage/danny-postma-302063.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.display-4 {
+  font-size: 400%;
+}
+
+#intro {
+  color: black;
+  text-shadow: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+#learnMore {
+  background-color: rgb(147, 249, 248);
+  text-shadow: none;
+  color: #182626;
+  border: 0;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.55);
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.55);
+}
+#learnMore:focus{
+  outline: 0;
+}
+
+#appSummary {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+#emailEntry {
+  width: 200px;
+}
